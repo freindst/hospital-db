@@ -122,7 +122,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://hospital-db-group-d.herokuapp.com/']
+CSRF_TRUSTED_ORIGINS = ['https://hospital-db-group-d.herokuapp.com']
 
 # Configure Django App for Heroku.
 import django_heroku
